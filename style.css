@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: HoneyCute;
+    src: url(./HoneyCute.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFAF9;
+}
+
+header{
+    height: 85px;
+    background-color: #F98964;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    height: 70px;
+    border-radius: 5px;
+    background-color: #f8602d;
+}
+
+
+.img-galeria{
+    transition: all linear 0.4s;
+}
+
+.img-galeria:hover{
+    transform: scale(1.1);
+}
+
+.box-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-img{
+    width: 65px;
+    height: 61px;
+    margin-top: 12px;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.h2-logo{
+    font-family: HoneyCute;
+    letter-spacing: 2px;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.img-ginger-cat{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 1000px;
+    width: 100%;
+}
+
+.logo-ginger-cat{
+    position: absolute;
+    size: 200px;
+    top: 390px;
+    left: 850px;
+}
+
+.h2-ginger-cat{
+    font-family: HoneyCute;
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.img-inicial{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.ul-header{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.circulo-1{
+    position: absolute;
+    width: 1100px;
+    height: 900px;
+    left: 0px;
+    top: 1250px;
+    background: #FBD2A5;
+    border-radius: 0 100% 0 0;
+}
+
+.circulo-2{
+    position: absolute;
+    width: 1100px;
+    height: 900px;
+    left: 795px;
+    top: 1250px;
+    background: #FFE8CF;
+    border-radius: 100% 0 0 0;
+}
+
+.texto-pg-inicial{
+    width: 900px;
+    position: relative;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #F98964;
+    margin-top: 370px;
+    margin-left: 185px;
+    margin-bottom: 450px;
+}
+
+.galeria{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;  
+    cursor: pointer;
+}
+
+
+.div-form{
+    display: flex;
+    margin-top: 129px;
+    border-style: solid;
+    border-color: #F98964;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 606px;
+    width: 1200px;
+}
+
+.logo-laranja{
+    width: 296px;
+    height: 296px;
+    margin-top: 145px;
+    margin-left: 100px;
+    
+}
+
+.patinha-gato{
+    margin-top: 153px;
+    margin-bottom: 213px;
+    width: 1200px;
+    right: 0px;
+    position: relative;
+}
+
+.palavra-adote{
+    position: absolute;
+    top: 4370px;
+    right: 400px;
+}
+
+.h2-adote{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #F98964;
+    margin-bottom: 103px;
+    margin-left: 285px;
+    margin-top: 130px;
+}
+
+.ul-adocao{
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F98964;
+    font-size: 15px;
+}
+
+
+.div-leco{
+    display: flex;
+    margin-top: 100px;
+}
+
+.div-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-leco{
+    width: 800px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F98964;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 47px;
+}
+
+.div-kim{
+    display: flex;
+    margin-top: 100px;
+}
+
+.p-kim{
+    width: 800px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F98964;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 47px;
+}
+
+h3{
+    font-family: HoneyCute;
+    letter-spacing: 2px;
+    color: #F98964;
+    font-size: 50px;
+}
+
+.h2-como-adotar{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    color: #F8B287;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+}
+
+.p-como-adotar{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #F8B287;
+    text-align: justify;
+    width: 426px;
+    margin-right: 67px;
+}
+
+.div-criterios{
+    width: 692px;
+    height: 516px;
+    border-radius: 5px;
+    background-color: #F8B287;
+}
+
+.como-adotar{
+    display: flex;
+}
+
+.h2-criterios{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 74px;
+    margin-left: 164px;
+    margin-bottom: 56px;
+    width: 600px;
+}
+
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 57px;
+}
+
+.p-criterios{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    width: 241px;
+    height: 87px;
+    text-align: justify;
+    margin-left: 57px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+}
+
+
+.criterios-posicionamento{
+    display: flex;
+}
+
+.endereco-fundo{
+    width: 700px;
+    height: 270px;
+    margin-right: 30px;
+    background-color: #F7B388;
+    border-radius: 0 0 100% 0;
+}
+
+.h2-endereço{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    width: 339px;
+    margin-left: 115px;
+    padding-top: 25px;
+}
+
+.mapa{
+    width: 100%;
+    position: relative;
+}
+
+.container-mapa{
+    width: 100%;
+    height: 100%;
+}
+
+.gato-endereco{
+    margin-top: 185px;
+    margin-left: 97px;
+    margin-bottom: 152px;
+    width: 298px;
+    height: 300px;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: #F98964;
+    
+}
+
+.div-footer{
+    display: flex;
+    font-style: normal;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+h5{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+h6, .p-footer{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.p-footer{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.div-redes-sociais{
+    display: flex;
+    margin-top: 5px;
+}
+
+i{
+    color: #ffffff;
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.div-fale-com-a-gente{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.div-redes-posicao{
+    margin-top: 40px;
+}
+
+.div-como-adotar-posicionamento{
+    margin-bottom: 150px;
+}
+
+.estilo-input{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #F98964;
+    width: 250px;
+    height: 52px;
+    border-width: 3px;
+    padding: 5px;
+}
+
+.h2-form{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F98964;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.form-caixas{
+    margin-top: 90px;
+    margin-left: 87px;
+}
+
+button{
+    background-color: #F98964;
+    color: #ffffff;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 195px;
+    height: 61px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+
+button:hover{
+    background-color: #f77348;
+}
+
+.conteudo-endereco{
+    display: flex;
+}
+
+input::placeholder{
+    color: #f98964c7;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+textarea::placeholder{
+    color: #f98964c7;
+    font-size: 15px;
+    font-weight: 400;
+    
+    
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+textarea{
+    width: 100% !important;
+    resize: none;
+}
+
+.nome-sobrenome{
+    margin-bottom: 29px;
+}
+
+.telefone-email{
+    margin-bottom: 29px;
+}
+
+.textarea-button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.nome-telefone{
+    margin: 10px;
+}
